@@ -32,7 +32,7 @@ class GUIDServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app->singleton('GUID',function($app) {
+		$this->app->singleton(GUID::class,function($app) {
 		    return new GUID;
 		});
 
@@ -49,7 +49,7 @@ class GUIDServiceProvider extends ServiceProvider {
 	 */
 	public function provides()
 	{
-		return array('guid');
+		return array(GUID::class);
 	}
 
 }
