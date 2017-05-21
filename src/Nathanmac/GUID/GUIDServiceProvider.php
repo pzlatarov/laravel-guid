@@ -1,4 +1,4 @@
-<?php namespace Nathanmac\GUID;
+<?php namespace Pzlatarov\GUID;
 
 use Illuminate\Support\ServiceProvider;
 

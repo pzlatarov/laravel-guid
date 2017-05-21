@@ -1,6 +1,6 @@
 <?php 
 
-namespace Nathanmac\GUID;
+namespace Pzlatarov\GUID;
 
 class GUID {
  

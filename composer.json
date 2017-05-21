@@ -1,11 +1,11 @@
 {
-    "name": "nathanmac/laravel-guid",
-    "description": "Simple GUID generator Package for Laravel 4",
+    "name": "pzlatarov/laravel-guid",
+    "description": "Simple GUID generator Package for Laravel 5.4",
     "license": "MIT",
     "authors": [
         {
-            "name": "nathanmac",
-            "email": "nathan.macnamara@arrowecs.co.uk"
+            "name": "pzlatarov",
+            "email": "pavel@zlatarov.info"
         }
     ],
     "require": {
@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Nathanmac\\GUID": "src/"
+            "Pzlatarov\\GUID": "src/"
         }
     },
     "minimum-stability": "stable"

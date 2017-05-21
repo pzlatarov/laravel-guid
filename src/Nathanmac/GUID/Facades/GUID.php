@@ -1,4 +1,4 @@
-<?php namespace Nathanmac\GUID\Facades;
+<?php namespace Pzlatarov\GUID\Facades;
  
 use Illuminate\Support\Facades\Facade;
  
