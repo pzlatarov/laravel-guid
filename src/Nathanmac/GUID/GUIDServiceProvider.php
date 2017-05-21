@@ -32,7 +32,7 @@ class GUIDServiceProvider extends ServiceProvider {
 	 */
 	public function register()
 	{
-		$this->app['guid'] = $this->app->share(function($app) {
+		$this->app->singleton('GUID',function($app) {
 		    return new GUID;
 		});
 

@@ -1,10 +1,7 @@
 laravel-guid
 ==================
 
-[![Build Status](https://travis-ci.org/nathanmac/laravel-guid.svg?branch=master)](https://travis-ci.org/nathanmac/laravel-guid)
-[![Still Maintained](http://stillmaintained.com/nathanmac/laravel-guid.png)](http://stillmaintained.com/nathanmac/laravel-guid)
-
-Simple GUID generator Package for Laravel 4
+Simple GUID generator Package for Laravel 4. Forked from [Nathan Macnamara](https://github.com/nathanmac)'s [laravel-guid](https://github.com/nathanmac/laravel-guid), but slightly modified to support Laravel 5.4.
 
 Installation
 ------------
