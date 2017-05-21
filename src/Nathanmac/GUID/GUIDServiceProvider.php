@@ -21,7 +21,7 @@ class GUIDServiceProvider extends ServiceProvider {
 		$laravel = app();
 		if (version_compare($laravel::VERSION, '4.2', '<='))
 		{
-			$this->package('nathanmac/guid');
+			$this->package('pzlatarov/guid');
 		}
 	}
 
@@ -38,7 +38,7 @@ class GUIDServiceProvider extends ServiceProvider {
 
 		$this->app->booting(function() {
 			$loader = \Illuminate\Foundation\AliasLoader::getInstance();
-			$loader->alias('GUID', 'Nathanmac\GUID\Facades\GUID');
+			$loader->alias('GUID', 'Pzlatarov\GUID\Facades\GUID');
 		});
 	}
 
